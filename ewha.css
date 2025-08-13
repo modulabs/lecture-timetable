@@ -4,7 +4,7 @@ body {
 }
 /* 테이블 헤더 커스텀 스타일 */
 .table-header th {
-    background-color: #f1f5f9;
+    background-color: #e2e8f0;
     color: #334155;
 }
 /* 테이블 셀 세로 정렬 */
@@ -79,4 +79,9 @@ body {
 }
 .session-toggle.is-active svg {
     transform: rotate(180deg);
+}
+
+/* 커스텀 배경색 - 더 옅은 회색 */
+.bg-slate-25 {
+    background-color: #f8fafc;
 }

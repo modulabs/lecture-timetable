@@ -15,7 +15,8 @@
             <p class="mt-2 text-lg text-slate-600">AI 개념부터 워크플로우 자동화, 그리고 해커톤까지</p>
         </div>
 
-        <div class="shadow-lg rounded-xl overflow-hidden bg-white">
+        <!-- 데스크톱 테이블 -->
+        <div class="shadow-lg rounded-xl overflow-hidden bg-white hidden md:block">
             <div class="overflow-x-auto">
                 <table class="w-full text-sm sm:text-base text-center text-slate-600">
                     <thead class="table-header">
@@ -67,10 +68,124 @@
                             <td class="p-3 font-mono table-cell-middle font-semibold">16:00 ~ 17:00</td>
                             <td class="p-3 text-left table-cell-middle font-semibold text-slate-800">[실습/이론] 바이브 코딩을 위한 IT 기술 배우기</td>
                             <td class="p-3 text-left table-cell-middle font-semibold text-slate-800">[프로젝트] 해커톤 아이디어 발표 피드백</td>
-                            <td class="p-3 text-left table-cell-middle font-semibold text-slate-800">[프로젝트] 팀별 프로젝트 발표 및 시연</td>
+                            <td class="p-3 text-left table-cell-middle font-semibold text-slate-800">[프로젝트] 프로젝트 발표 및 시연<br>[공지] 이후 과정 안내</td>
                         </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+
+        <!-- 모바일 카드 레이아웃 -->
+        <div class="md:hidden space-y-6">
+            <!-- 8.19.(화) -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-blue-50 p-4 border-b">
+                    <h3 class="text-lg font-bold text-blue-900">8.19.(화)</h3>
+                </div>
+                <div class="divide-y divide-slate-200">
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">10:00<br>~<br>10:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">온보딩 및 퍼실리테이션</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">11:00<br>~<br>11:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[이론] AI 에이전트 트렌드 & 최신 기술 동향</div>
+                    </div>
+                    <div class="p-4 flex bg-slate-50">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">12:00<br>~<br>13:00</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-600 text-center">점심 식사</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">13:00<br>~<br>13:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[실습] 바이브 코딩과 AI 에이전트 구축</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">14:00<br>~<br>14:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[실습] Streamlit을 활용한 AI 서비스 배포</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">15:00<br>~<br>15:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[실습] RAG 개념 및 바이브 코딩으로 적용하기</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">16:00<br>~<br>17:00</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[실습/이론] 바이브 코딩을 위한 IT 기술 배우기</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8.20.(수) -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-green-50 p-4 border-b">
+                    <h3 class="text-lg font-bold text-green-900">8.20.(수)</h3>
+                </div>
+                <div class="divide-y divide-slate-200">
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">10:00<br>~<br>10:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[이론/실습] n8n을 활용한 워크플로우 자동화 입문</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">11:00<br>~<br>11:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[실습] n8n을 활용한 워크플로우 자동화</div>
+                    </div>
+                    <div class="p-4 flex bg-slate-50">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">12:00<br>~<br>13:00</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-600 text-center">점심 식사</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">13:00<br>~<br>13:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[특강] 성공적인 프로젝트를 위한 협업 및 기획 전략</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">14:00<br>~<br>14:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[프로젝트] 해커톤 아이디어 기획</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">15:00<br>~<br>15:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[프로젝트] 해커톤 아이디어 발표</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">16:00<br>~<br>17:00</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[프로젝트] 해커톤 아이디어 발표 피드백</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8.21.(목) -->
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="bg-purple-50 p-4 border-b">
+                    <h3 class="text-lg font-bold text-purple-900">8.21.(목)</h3>
+                </div>
+                <div class="divide-y divide-slate-200">
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">10:00<br>~<br>10:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[특강] Gen AI 시대에서 살아남기</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">11:00<br>~<br>11:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[프로젝트] 미니 해커톤 킥오프 및 팀 빌딩</div>
+                    </div>
+                    <div class="p-4 flex bg-slate-50">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">12:00<br>~<br>13:00</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-600 text-center">점심 식사</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">13:00<br>~<br>13:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[실습] 깃허브를 통한 나만의 페이지 만들기</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">14:00<br>~<br>14:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[프로젝트] 미니 해커톤 집중 개발</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">15:00<br>~<br>15:45</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[프로젝트] 미니 해커톤 집중 개발</div>
+                    </div>
+                    <div class="p-4 flex">
+                        <div class="w-24 flex-shrink-0 font-mono text-sm font-semibold text-slate-600">16:00<br>~<br>17:00</div>
+                        <div class="flex-1 pl-4 font-semibold text-slate-800">[프로젝트] 프로젝트 발표 및 시연<br>[공지] 이후 과정 안내</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
